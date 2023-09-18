@@ -1,0 +1,21 @@
+
+1.Convert the given dataset into frequency tables:
+
+| Weather  | Play  |
+|----------|-------|
+| Sunny    | Yes   |
+| Sunny    | Yes   |
+| Rainy    | No    |
+| Sunny    | No    |
+| Rainy    | Yes   |
+
+2.Generate a Likelihood table:
+| Weather  | P(Play=Yes|Weather) | P(Play=No|Weather) |
+|----------|--------------------|---------------------|
+| Sunny    | 2/3                | 1/3                 |
+| Rainy    | 1/2                | 1/2                 |
+
+
+3.Use Bayes' theorem to calculate the posterior probability:
+P(Play|Weather) = P(Weather|Play) * P(Play) / P(Weather)
+
